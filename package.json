@@ -1,0 +1,23 @@
+{
+  "name": "phils-proxy-server",
+  "version": "1.0.0",
+  "description": "Proxy for Team Scully 9Trails project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
